@@ -2,6 +2,7 @@
 
 import React from 'react'
 
-const Greet = () => <h1>Hello MaXi!</h1>
-
+const Greet = () => {
+    return <div><h1>Hello MaXi!</h1><p>Functional Compenent</p></div>
+}
 export default Greet
