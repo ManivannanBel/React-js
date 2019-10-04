@@ -1,5 +1,5 @@
 //Functional Compenent
-//props
+//props are immutable
 import React from 'react'
 
 const Greet = (props) => {
