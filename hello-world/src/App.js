@@ -4,6 +4,7 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
+import Message from './components/Message'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hello/>
       <Greet fname="Shane" lname="Watson"><p>All rounder - AUS</p></Greet>
       <Welcome fname="Brett" lname="Lee"/>
+      <Message/>
     </div>
   );
 }
