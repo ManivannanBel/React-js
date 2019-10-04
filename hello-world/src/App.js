@@ -11,6 +11,8 @@ function App() {
       <Greet/>
       <Welcome/>
       <Hello/>
+      <Greet fname="Shane" lname="Watson"><p>All rounder - AUS</p></Greet>
+      <Welcome fname="Brett" lname="Lee"/>
     </div>
   );
 }
