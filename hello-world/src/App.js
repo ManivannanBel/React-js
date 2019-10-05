@@ -7,6 +7,7 @@ import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
 import ParentComponent from './components/ParentComponent'
+import ConditionalRendering from './components/ConditionalRenderingComponent'
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Message/>
       <Counter/>
       <ParentComponent/>
+      <ConditionalRendering/>
     </div>
   );
 }
